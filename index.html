@@ -8,20 +8,20 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-		<div class="container h-screen w-full px-2 py-4">
+		<div class="container mx-auto h-screen w-full px-2 py-4">
 			<div class="max-w-[720px] my-4 py-4 mx-auto">
 				<img class="animate-pulse mx-auto hover:animate-none w-[80px]" src="icon.png" alt="" />
 				<div class="border-b mb-4">
 					<h2 class="font-mono text-3xl text-sky-500 font-bold mb-4 text-center">Color Picker</h2>
 				</div>
-				<div class="flex justify-between gap-4 py-2">
+				<div class="sm:grid grid-cols-2 md:flex justify-between gap-4 p-2 mb-4">
 					<p class="click bg-red-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-12 shadow text-center" id="red">Click Me!</p>
 					<p class="click bg-yellow-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-12 shadow text-center" id="yellow">Click Me!</p>
 					<p class="click bg-green-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-12 shadow text-center" id="green">Click Me!</p>
 					<p class="click bg-blue-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-12 shadow text-center" id="blue">Click Me!</p>
 					<p class="click bg-orange-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-12 shadow text-center" id="orange">Click Me!</p>
 				</div>
-				<div class="flex justify-between gap-4 py-2">
+				<div class="sm:grid grid-cols-2 md:flex justify-between gap-4 py-2">
 					<p class="hover bg-red-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-11 shadow text-center" id="red">Hover Me!</p>
 					<p class="hover bg-yellow-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-11 shadow text-center" id="yellow">Hover Me!</p>
 					<p class="hover bg-green-500 w-240 cursor-pointer rounded-lg border border-slate-200 p-11 shadow text-center" id="green">Hover Me!</p>
@@ -34,7 +34,7 @@
 					<button class="bg-red-600 px-4 py-2 rounded shadow-lg shadow-red-400/40 hover:bg-red-500 hover:shadow-red-500/50 text-slate-100 font-lg w-[25%]" id="change">Reset</button>
 				</div>
 			</div>
-			<div class="bg-[#0f0844] mt-24 px-2 py-6 absolute inset-x-0 bottom-0">
+			<div class="bg-[#0f0844] mt-24 px-2 py-6 absolute inset-x-0">
 				<p class="text-center text-slate-200">Copyright &copy; 2022 : <a href="#" class="font-mono text-sky-500 hover:text-sky-400 hover:underline">Mukhtasar Al-Akhdhari</a> - All Right Reserved</p>
 			</div>
 		</div>
